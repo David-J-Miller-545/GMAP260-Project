@@ -24,9 +24,27 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Draw",
+                    "name": "CatapultFire",
                     "type": "Button",
                     "id": "34242f30-6b33-401d-b107-564d5050c1ec",
+                    "expectedControlType": "",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "CatapultArm",
+                    "type": "Value",
+                    "id": "10d228af-2151-4466-9bc2-aa8064373519",
+                    "expectedControlType": "Axis",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "CatapultReload",
+                    "type": "Button",
+                    "id": "b34a4cb6-6575-410c-984d-7c175ef56fca",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -85,7 +103,51 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Draw",
+                    "action": "CatapultFire",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "1D Axis",
+                    "id": "be3f39be-8af8-4ecd-8461-a668afda467f",
+                    "path": "1DAxis",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CatapultArm",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "negative",
+                    "id": "4c257ad8-df7e-4fba-94b4-26afad62b7c4",
+                    "path": "<Keyboard>/q",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CatapultArm",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "positive",
+                    "id": "5a2a44d5-60f0-4078-87b3-8a26374785a0",
+                    "path": "<Keyboard>/e",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CatapultArm",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "",
+                    "id": "7fc7120b-2329-4da5-ad23-236e2f047d1b",
+                    "path": "<Keyboard>/r",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "CatapultReload",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

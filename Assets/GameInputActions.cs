@@ -46,9 +46,27 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
                     ""initialStateCheck"": true
                 },
                 {
-                    ""name"": ""Draw"",
+                    ""name"": ""CatapultFire"",
                     ""type"": ""Button"",
                     ""id"": ""34242f30-6b33-401d-b107-564d5050c1ec"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CatapultArm"",
+                    ""type"": ""Value"",
+                    ""id"": ""10d228af-2151-4466-9bc2-aa8064373519"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": true
+                },
+                {
+                    ""name"": ""CatapultReload"",
+                    ""type"": ""Button"",
+                    ""id"": ""b34a4cb6-6575-410c-984d-7c175ef56fca"",
                     ""expectedControlType"": """",
                     ""processors"": """",
                     ""interactions"": """",
@@ -107,7 +125,51 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
-                    ""action"": ""Draw"",
+                    ""action"": ""CatapultFire"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""be3f39be-8af8-4ecd-8461-a668afda467f"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CatapultArm"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""4c257ad8-df7e-4fba-94b4-26afad62b7c4"",
+                    ""path"": ""<Keyboard>/q"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CatapultArm"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""5a2a44d5-60f0-4078-87b3-8a26374785a0"",
+                    ""path"": ""<Keyboard>/e"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CatapultArm"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""7fc7120b-2329-4da5-ad23-236e2f047d1b"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CatapultReload"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
                 }
@@ -120,7 +182,9 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
         m_Gameplay = asset.FindActionMap("Gameplay", throwIfNotFound: true);
         m_Gameplay_PauseUnpause = m_Gameplay.FindAction("PauseUnpause", throwIfNotFound: true);
         m_Gameplay_Movement = m_Gameplay.FindAction("Movement", throwIfNotFound: true);
-        m_Gameplay_Draw = m_Gameplay.FindAction("Draw", throwIfNotFound: true);
+        m_Gameplay_CatapultFire = m_Gameplay.FindAction("CatapultFire", throwIfNotFound: true);
+        m_Gameplay_CatapultArm = m_Gameplay.FindAction("CatapultArm", throwIfNotFound: true);
+        m_Gameplay_CatapultReload = m_Gameplay.FindAction("CatapultReload", throwIfNotFound: true);
     }
 
     ~@GameInputActions()
@@ -189,14 +253,18 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
     private List<IGameplayActions> m_GameplayActionsCallbackInterfaces = new List<IGameplayActions>();
     private readonly InputAction m_Gameplay_PauseUnpause;
     private readonly InputAction m_Gameplay_Movement;
-    private readonly InputAction m_Gameplay_Draw;
+    private readonly InputAction m_Gameplay_CatapultFire;
+    private readonly InputAction m_Gameplay_CatapultArm;
+    private readonly InputAction m_Gameplay_CatapultReload;
     public struct GameplayActions
     {
         private @GameInputActions m_Wrapper;
         public GameplayActions(@GameInputActions wrapper) { m_Wrapper = wrapper; }
         public InputAction @PauseUnpause => m_Wrapper.m_Gameplay_PauseUnpause;
         public InputAction @Movement => m_Wrapper.m_Gameplay_Movement;
-        public InputAction @Draw => m_Wrapper.m_Gameplay_Draw;
+        public InputAction @CatapultFire => m_Wrapper.m_Gameplay_CatapultFire;
+        public InputAction @CatapultArm => m_Wrapper.m_Gameplay_CatapultArm;
+        public InputAction @CatapultReload => m_Wrapper.m_Gameplay_CatapultReload;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -212,9 +280,15 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
             @Movement.started += instance.OnMovement;
             @Movement.performed += instance.OnMovement;
             @Movement.canceled += instance.OnMovement;
-            @Draw.started += instance.OnDraw;
-            @Draw.performed += instance.OnDraw;
-            @Draw.canceled += instance.OnDraw;
+            @CatapultFire.started += instance.OnCatapultFire;
+            @CatapultFire.performed += instance.OnCatapultFire;
+            @CatapultFire.canceled += instance.OnCatapultFire;
+            @CatapultArm.started += instance.OnCatapultArm;
+            @CatapultArm.performed += instance.OnCatapultArm;
+            @CatapultArm.canceled += instance.OnCatapultArm;
+            @CatapultReload.started += instance.OnCatapultReload;
+            @CatapultReload.performed += instance.OnCatapultReload;
+            @CatapultReload.canceled += instance.OnCatapultReload;
         }
 
         private void UnregisterCallbacks(IGameplayActions instance)
@@ -225,9 +299,15 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
             @Movement.started -= instance.OnMovement;
             @Movement.performed -= instance.OnMovement;
             @Movement.canceled -= instance.OnMovement;
-            @Draw.started -= instance.OnDraw;
-            @Draw.performed -= instance.OnDraw;
-            @Draw.canceled -= instance.OnDraw;
+            @CatapultFire.started -= instance.OnCatapultFire;
+            @CatapultFire.performed -= instance.OnCatapultFire;
+            @CatapultFire.canceled -= instance.OnCatapultFire;
+            @CatapultArm.started -= instance.OnCatapultArm;
+            @CatapultArm.performed -= instance.OnCatapultArm;
+            @CatapultArm.canceled -= instance.OnCatapultArm;
+            @CatapultReload.started -= instance.OnCatapultReload;
+            @CatapultReload.performed -= instance.OnCatapultReload;
+            @CatapultReload.canceled -= instance.OnCatapultReload;
         }
 
         public void RemoveCallbacks(IGameplayActions instance)
@@ -249,6 +329,8 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
     {
         void OnPauseUnpause(InputAction.CallbackContext context);
         void OnMovement(InputAction.CallbackContext context);
-        void OnDraw(InputAction.CallbackContext context);
+        void OnCatapultFire(InputAction.CallbackContext context);
+        void OnCatapultArm(InputAction.CallbackContext context);
+        void OnCatapultReload(InputAction.CallbackContext context);
     }
 }
