@@ -10,6 +10,8 @@ public class InputManager : MonoBehaviour
     // Store lambda references
     private System.Action<InputAction.CallbackContext> onMovePerformed;
     private System.Action<InputAction.CallbackContext> onMoveCanceled;
+    private System.Action<InputAction.CallbackContext> onCameraMovePerformed;
+    private System.Action<InputAction.CallbackContext> onCameraMoveCanceled;
     private System.Action<InputAction.CallbackContext> onArmPerformed;
     private System.Action<InputAction.CallbackContext> onArmCanceled;
     private System.Action<InputAction.CallbackContext> onPausePerformed;
@@ -17,6 +19,7 @@ public class InputManager : MonoBehaviour
     private System.Action<InputAction.CallbackContext> onFirePerformed;
 
     public float MoveAxis { get; private set; }
+    public float CameraMoveAxis { get; private set; }
     public float ArmMoveAxis { get; private set; }
     public bool PausePressed { get; private set; }
     public bool FirePressed { get; private set; }
@@ -27,6 +30,9 @@ public class InputManager : MonoBehaviour
         // Assign lambdas to fields before subscribing
         onMovePerformed = ctx => MoveAxis = ctx.ReadValue<float>();
         onMoveCanceled = _ => MoveAxis = 0f;
+
+        onCameraMovePerformed = ctx => CameraMoveAxis = ctx.ReadValue<float>();
+        onCameraMoveCanceled = _ => CameraMoveAxis = 0f;
 
         onArmPerformed = ctx => ArmMoveAxis = ctx.ReadValue<float>();
         onArmCanceled = _ => ArmMoveAxis = 0f;
@@ -63,6 +69,9 @@ public class InputManager : MonoBehaviour
         inputActions.Gameplay.Movement.performed += onMovePerformed;
         inputActions.Gameplay.Movement.canceled += onMoveCanceled;
 
+        inputActions.Gameplay.CameraMove.performed += onCameraMovePerformed;
+        inputActions.Gameplay.CameraMove.canceled += onCameraMoveCanceled;
+
         inputActions.Gameplay.CatapultArm.performed += onArmPerformed;
         inputActions.Gameplay.CatapultArm.canceled += onArmCanceled;
 
@@ -77,6 +86,9 @@ public class InputManager : MonoBehaviour
         // Unsubscribe safely using the stored references
         inputActions.Gameplay.Movement.performed -= onMovePerformed;
         inputActions.Gameplay.Movement.canceled -= onMoveCanceled;
+
+        inputActions.Gameplay.CameraMove.performed -= onCameraMovePerformed;
+        inputActions.Gameplay.CameraMove.canceled -= onCameraMoveCanceled;
 
         inputActions.Gameplay.CatapultArm.performed -= onArmPerformed;
         inputActions.Gameplay.CatapultArm.canceled -= onArmCanceled;
@@ -99,6 +111,8 @@ public class InputManager : MonoBehaviour
 
     // Optional helpers
     public bool IsMoving => MoveAxis != 0f;
+
+    public bool IsCameraMoving => CameraMoveAxis != 0f;
 
     public bool IsArmMoving => ArmMoveAxis != 0f;
 }

@@ -1,0 +1,1417 @@
+fileFormatVersion: 2
+guid: 50074b1e0e2e17f4aba3bc6541a20b9c
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1138966119288697391
+    second: roof wood_0
+  - first:
+      213: 2760328909336590876
+    second: roof wood_1
+  - first:
+      213: -927892341639897463
+    second: roof wood_2
+  - first:
+      213: -4627146085450132196
+    second: roof wood_3
+  - first:
+      213: -7913814579543121737
+    second: roof wood_4
+  - first:
+      213: 1735845981116738197
+    second: roof wood_5
+  - first:
+      213: 9121443262892356491
+    second: roof wood_6
+  - first:
+      213: 6824096559603898834
+    second: roof wood_7
+  - first:
+      213: -7259135795011227608
+    second: roof wood_8
+  - first:
+      213: 2845157686421297253
+    second: roof wood_9
+  - first:
+      213: 1012820154785705310
+    second: roof wood_10
+  - first:
+      213: -4566734244830320198
+    second: roof wood_11
+  - first:
+      213: -1603623048321817983
+    second: roof wood_12
+  - first:
+      213: -6675949129205597932
+    second: roof wood_13
+  - first:
+      213: 6978940754528097237
+    second: roof wood_14
+  - first:
+      213: -2636204696837618513
+    second: roof wood_15
+  - first:
+      213: -4346089397204403223
+    second: roof wood_16
+  - first:
+      213: 4151132521535115730
+    second: roof wood_17
+  - first:
+      213: 5533416739850057492
+    second: roof wood_18
+  - first:
+      213: 6614944103952417251
+    second: roof wood_19
+  - first:
+      213: -8645892134515407239
+    second: roof wood_20
+  - first:
+      213: -8403550112272501532
+    second: roof wood_21
+  - first:
+      213: 1344161485536931679
+    second: roof wood_22
+  - first:
+      213: -3556565668390530187
+    second: roof wood_23
+  - first:
+      213: -7937474123324725551
+    second: roof wood_24
+  - first:
+      213: 9017642177671833135
+    second: roof wood_25
+  - first:
+      213: 7089695656494971416
+    second: roof wood_26
+  - first:
+      213: 5881476738673793483
+    second: roof wood_27
+  - first:
+      213: 7513177700377372386
+    second: roof wood_28
+  - first:
+      213: -8616675617268196381
+    second: roof wood_29
+  - first:
+      213: 3363832022696903535
+    second: roof wood_30
+  - first:
+      213: 6674334072568451087
+    second: roof wood_31
+  - first:
+      213: -1321547446635586076
+    second: roof wood_32
+  - first:
+      213: -7824143948942164126
+    second: roof wood_33
+  - first:
+      213: -7564885195022215224
+    second: roof wood_34
+  - first:
+      213: 7991806818532646560
+    second: roof wood_35
+  - first:
+      213: 4260208750457471174
+    second: roof wood_36
+  - first:
+      213: 6641424804706421994
+    second: roof wood_37
+  - first:
+      213: 5882290158560014636
+    second: roof wood_38
+  - first:
+      213: -2386372189740843177
+    second: roof wood_39
+  - first:
+      213: -3933468654334026279
+    second: roof wood_40
+  - first:
+      213: -250921765891557454
+    second: roof wood_41
+  - first:
+      213: -3382513420708865097
+    second: roof wood_42
+  - first:
+      213: -4336444891254239053
+    second: roof wood_43
+  - first:
+      213: -3110306448962308885
+    second: roof wood_44
+  - first:
+      213: 9105800658788376948
+    second: roof wood_45
+  - first:
+      213: 6726399043720180308
+    second: roof wood_46
+  - first:
+      213: 9068071271057622140
+    second: roof wood_47
+  - first:
+      213: -1225082787003263272
+    second: roof wood_48
+  - first:
+      213: -5260257609072496229
+    second: roof wood_49
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 516
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: roof wood_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 875
+        width: 48
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f227867a6ab6ecf00800000000000000
+      internalID: 1138966119288697391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 887
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1abf38a488ae4620800000000000000
+      internalID: 2760328909336590876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_2
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 887
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98e9fbad4d67f13f0800000000000000
+      internalID: -927892341639897463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_3
+      rect:
+        serializedVersion: 2
+        x: 93
+        y: 887
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c15d7e4a62319cfb0800000000000000
+      internalID: -4627146085450132196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_4
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 887
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b06600b19b7c2290800000000000000
+      internalID: -7913814579543121737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_5
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 887
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59aa04119b6f61810800000000000000
+      internalID: 1735845981116738197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_6
+      rect:
+        serializedVersion: 2
+        x: 156
+        y: 887
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b833493f150e59e70800000000000000
+      internalID: 9121443262892356491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_7
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 887
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9d7245aaf04be50800000000000000
+      internalID: 6824096559603898834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_8
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 884
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820780a747e524b90800000000000000
+      internalID: -7259135795011227608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_9
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 887
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5681d1d67d70c7720800000000000000
+      internalID: 2845157686421297253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_10
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 887
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5dab5b80924e0e00800000000000000
+      internalID: 1012820154785705310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_11
+      rect:
+        serializedVersion: 2
+        x: 840
+        y: 887
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab9e6416663bf90c0800000000000000
+      internalID: -4566734244830320198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_12
+      rect:
+        serializedVersion: 2
+        x: 849
+        y: 887
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 182262b7559ceb9e0800000000000000
+      internalID: -1603623048321817983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_13
+      rect:
+        serializedVersion: 2
+        x: 865
+        y: 887
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4193f1f33a34a53a0800000000000000
+      internalID: -6675949129205597932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_14
+      rect:
+        serializedVersion: 2
+        x: 881
+        y: 887
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3d426e3ad2ad060800000000000000
+      internalID: 6978940754528097237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_15
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 887
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa407c1abc15a6bd0800000000000000
+      internalID: -2636204696837618513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_16
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 887
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9eb3a8548b69fa3c0800000000000000
+      internalID: -4346089397204403223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_17
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 887
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d11ca1e809cb9930800000000000000
+      internalID: 4151132521535115730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_18
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 887
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41776f42535aacc40800000000000000
+      internalID: 5533416739850057492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_19
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 887
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e106257d900dcb50800000000000000
+      internalID: 6614944103952417251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_20
+      rect:
+        serializedVersion: 2
+        x: 975
+        y: 887
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9768ddb59ee930880800000000000000
+      internalID: -8645892134515407239
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_21
+      rect:
+        serializedVersion: 2
+        x: 1004
+        y: 887
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e4bdc162b7906b80800000000000000
+      internalID: -8403550112272501532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_22
+      rect:
+        serializedVersion: 2
+        x: 1013
+        y: 884
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5fa03adfbb67a210800000000000000
+      internalID: 1344161485536931679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_23
+      rect:
+        serializedVersion: 2
+        x: 1020
+        y: 884
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5739b3b3e5a84aec0800000000000000
+      internalID: -3556565668390530187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_24
+      rect:
+        serializedVersion: 2
+        x: 1029
+        y: 884
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d6ef51e65d68d190800000000000000
+      internalID: -7937474123324725551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_25
+      rect:
+        serializedVersion: 2
+        x: 1036
+        y: 884
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f26a5b778c9152d70800000000000000
+      internalID: 9017642177671833135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_26
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 884
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81a330303a8a36260800000000000000
+      internalID: 7089695656494971416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_27
+      rect:
+        serializedVersion: 2
+        x: 1060
+        y: 887
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc9df53bee33f9150800000000000000
+      internalID: 5881476738673793483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_28
+      rect:
+        serializedVersion: 2
+        x: 1070
+        y: 887
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e6216ddf4b244860800000000000000
+      internalID: 7513177700377372386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_29
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 72
+        width: 1168
+        height: 758
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3eb95ffdd2b6b6880800000000000000
+      internalID: -8616675617268196381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_30
+      rect:
+        serializedVersion: 2
+        x: 1262
+        y: 705
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f63ceecf66bbeae20800000000000000
+      internalID: 3363832022696903535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_31
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 270
+        width: 6
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f009ab31a7fff9c50800000000000000
+      internalID: 6674334072568451087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_32
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 261
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ed1671699be8ade0800000000000000
+      internalID: -1321547446635586076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_33
+      rect:
+        serializedVersion: 2
+        x: 1309
+        y: 257
+        width: 5
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26fb7c3588e0b6390800000000000000
+      internalID: -7824143948942164126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_34
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 245
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c7d610eef0240790800000000000000
+      internalID: -7564885195022215224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_35
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 245
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aede2485f998ee60800000000000000
+      internalID: 7991806818532646560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_36
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 234
+        width: 16
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c04708794d4f1b30800000000000000
+      internalID: 4260208750457471174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_37
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 172
+        width: 21
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aec8efe0ca41b2c50800000000000000
+      internalID: 6641424804706421994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_38
+      rect:
+        serializedVersion: 2
+        x: 109
+        y: 166
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21feb6cbb712a150800000000000000
+      internalID: 5882290158560014636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_39
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 58
+        width: 40
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75f30a01327e1eed0800000000000000
+      internalID: -2386372189740843177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_40
+      rect:
+        serializedVersion: 2
+        x: 664
+        y: 56
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9dd594b69138969c0800000000000000
+      internalID: -3933468654334026279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_41
+      rect:
+        serializedVersion: 2
+        x: 506
+        y: 37
+        width: 42
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b7be9dbbfb848cf0800000000000000
+      internalID: -250921765891557454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_42
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 40
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bb18a617f5ee01d0800000000000000
+      internalID: -3382513420708865097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_43
+      rect:
+        serializedVersion: 2
+        x: 466
+        y: 15
+        width: 20
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b0dbbcc85ad1d3c0800000000000000
+      internalID: -4336444891254239053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_44
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 18
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be4bef683c8f5d4d0800000000000000
+      internalID: -3110306448962308885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_45
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 18
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 471699e547d4e5e70800000000000000
+      internalID: 9105800658788376948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_46
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 24
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 452f772da48f85d50800000000000000
+      internalID: 6726399043720180308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_47
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 24
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74805db6c248dd70800000000000000
+      internalID: 9068071271057622140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_48
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 0
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d6993c22b1affee0800000000000000
+      internalID: -1225082787003263272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: roof wood_49
+      rect:
+        serializedVersion: 2
+        x: 484
+        y: 8
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b913038139fcff6b0800000000000000
+      internalID: -5260257609072496229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      roof wood_0: 1138966119288697391
+      roof wood_1: 2760328909336590876
+      roof wood_10: 1012820154785705310
+      roof wood_11: -4566734244830320198
+      roof wood_12: -1603623048321817983
+      roof wood_13: -6675949129205597932
+      roof wood_14: 6978940754528097237
+      roof wood_15: -2636204696837618513
+      roof wood_16: -4346089397204403223
+      roof wood_17: 4151132521535115730
+      roof wood_18: 5533416739850057492
+      roof wood_19: 6614944103952417251
+      roof wood_2: -927892341639897463
+      roof wood_20: -8645892134515407239
+      roof wood_21: -8403550112272501532
+      roof wood_22: 1344161485536931679
+      roof wood_23: -3556565668390530187
+      roof wood_24: -7937474123324725551
+      roof wood_25: 9017642177671833135
+      roof wood_26: 7089695656494971416
+      roof wood_27: 5881476738673793483
+      roof wood_28: 7513177700377372386
+      roof wood_29: -8616675617268196381
+      roof wood_3: -4627146085450132196
+      roof wood_30: 3363832022696903535
+      roof wood_31: 6674334072568451087
+      roof wood_32: -1321547446635586076
+      roof wood_33: -7824143948942164126
+      roof wood_34: -7564885195022215224
+      roof wood_35: 7991806818532646560
+      roof wood_36: 4260208750457471174
+      roof wood_37: 6641424804706421994
+      roof wood_38: 5882290158560014636
+      roof wood_39: -2386372189740843177
+      roof wood_4: -7913814579543121737
+      roof wood_40: -3933468654334026279
+      roof wood_41: -250921765891557454
+      roof wood_42: -3382513420708865097
+      roof wood_43: -4336444891254239053
+      roof wood_44: -3110306448962308885
+      roof wood_45: 9105800658788376948
+      roof wood_46: 6726399043720180308
+      roof wood_47: 9068071271057622140
+      roof wood_48: -1225082787003263272
+      roof wood_49: -5260257609072496229
+      roof wood_5: 1735845981116738197
+      roof wood_6: 9121443262892356491
+      roof wood_7: 6824096559603898834
+      roof wood_8: -7259135795011227608
+      roof wood_9: 2845157686421297253
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

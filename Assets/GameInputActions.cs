@@ -71,6 +71,15 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CameraMove"",
+                    ""type"": ""Button"",
+                    ""id"": ""aff1146c-25b6-4a90-9f04-e549e65a4c6d"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -172,6 +181,39 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
                     ""action"": ""CatapultReload"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""1D Axis"",
+                    ""id"": ""0dab97ed-9388-4cc2-98a7-58eb7142d56e"",
+                    ""path"": ""1DAxis"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CameraMove"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""negative"",
+                    ""id"": ""0492d464-21c4-4c79-89bf-94fd8445a720"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CameraMove"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""positive"",
+                    ""id"": ""215aa6d6-9717-4529-a83c-2fbb04d34138"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""CameraMove"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
                 }
             ]
         }
@@ -185,6 +227,7 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
         m_Gameplay_CatapultFire = m_Gameplay.FindAction("CatapultFire", throwIfNotFound: true);
         m_Gameplay_CatapultArm = m_Gameplay.FindAction("CatapultArm", throwIfNotFound: true);
         m_Gameplay_CatapultReload = m_Gameplay.FindAction("CatapultReload", throwIfNotFound: true);
+        m_Gameplay_CameraMove = m_Gameplay.FindAction("CameraMove", throwIfNotFound: true);
     }
 
     ~@GameInputActions()
@@ -256,6 +299,7 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
     private readonly InputAction m_Gameplay_CatapultFire;
     private readonly InputAction m_Gameplay_CatapultArm;
     private readonly InputAction m_Gameplay_CatapultReload;
+    private readonly InputAction m_Gameplay_CameraMove;
     public struct GameplayActions
     {
         private @GameInputActions m_Wrapper;
@@ -265,6 +309,7 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
         public InputAction @CatapultFire => m_Wrapper.m_Gameplay_CatapultFire;
         public InputAction @CatapultArm => m_Wrapper.m_Gameplay_CatapultArm;
         public InputAction @CatapultReload => m_Wrapper.m_Gameplay_CatapultReload;
+        public InputAction @CameraMove => m_Wrapper.m_Gameplay_CameraMove;
         public InputActionMap Get() { return m_Wrapper.m_Gameplay; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -289,6 +334,9 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
             @CatapultReload.started += instance.OnCatapultReload;
             @CatapultReload.performed += instance.OnCatapultReload;
             @CatapultReload.canceled += instance.OnCatapultReload;
+            @CameraMove.started += instance.OnCameraMove;
+            @CameraMove.performed += instance.OnCameraMove;
+            @CameraMove.canceled += instance.OnCameraMove;
         }
 
         private void UnregisterCallbacks(IGameplayActions instance)
@@ -308,6 +356,9 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
             @CatapultReload.started -= instance.OnCatapultReload;
             @CatapultReload.performed -= instance.OnCatapultReload;
             @CatapultReload.canceled -= instance.OnCatapultReload;
+            @CameraMove.started -= instance.OnCameraMove;
+            @CameraMove.performed -= instance.OnCameraMove;
+            @CameraMove.canceled -= instance.OnCameraMove;
         }
 
         public void RemoveCallbacks(IGameplayActions instance)
@@ -332,5 +383,6 @@ public partial class @GameInputActions: IInputActionCollection2, IDisposable
         void OnCatapultFire(InputAction.CallbackContext context);
         void OnCatapultArm(InputAction.CallbackContext context);
         void OnCatapultReload(InputAction.CallbackContext context);
+        void OnCameraMove(InputAction.CallbackContext context);
     }
 }

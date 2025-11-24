@@ -38,28 +38,29 @@ public class CatapultArm : MonoBehaviour
     {
         var input = InputManager.Instance;
 
-        if (input.IsArmMoving && GameStateController.Instance.Is(GameState.Live))
+        if (GameStateController.Instance.Is(GameState.Live))
         {
-            Debug.Log($"ArmMoving: {input.ArmMoveAxis}");
-            armMove(input.ArmMoveAxis);
+            if (current_state == CatapultState.Free) arm_free_swing();
+            else
+            {
+                lastAngle = transform.localEulerAngles.z;
+                angularVelocity = 0;
+
+                if (input.IsArmMoving) armMove(input.ArmMoveAxis);
+                if (input.ReloadPressed) reload();
+                if (input.FirePressed) fire();
+            }
+            
         }
 
-        if (input.ReloadPressed) reload();
-        if (input.FirePressed) fire();
-
-        if (current_state == CatapultState.Free) arm_free_swing();
-        else
-        {
-            lastAngle = transform.localEulerAngles.z;
-            angularVelocity = 0;
-        }
     }
 
     void armMove(float dir)
     {
+        float dest_z = dir == -1 ? bot_z_rot : top_z_rot;
         float currentZ = NormalizeAngle(transform.localEulerAngles.z);
-        currentZ = Mathf.MoveTowards(currentZ, 0f, aimSpeed * dir * Time.deltaTime);
-        if (Mathf.Abs(currentZ + bot_z_rot) > 0.5f && Mathf.Abs(currentZ - top_z_rot) > 0.5f)
+        currentZ = Mathf.MoveTowards(currentZ, dest_z, aimSpeed * Time.deltaTime);
+        if (currentZ < bot_z_rot && currentZ > top_z_rot)
         {
             transform.localEulerAngles = new Vector3(0, 0, currentZ);
         }
@@ -79,13 +80,13 @@ public class CatapultArm : MonoBehaviour
             transform.localEulerAngles = new Vector3(0, 0, currentZ);
 
             // Release ammo near top of swing (when at or near maxRotation)
-            if (!(current_ammo == null) && Mathf.Abs(currentZ - top_z_rot) < 1f)
+            if (!(current_ammo == null) && currentZ - top_z_rot < 1f)
             {
                 ReleaseAmmo(angularVelocity);
             }
 
             // Stop the swing after reaching full motion
-            if (Mathf.Abs(currentZ - top_z_rot) < 0.5f)
+            if (currentZ - top_z_rot < 0.5f)
             {
                 current_state = CatapultState.Held;
             }
