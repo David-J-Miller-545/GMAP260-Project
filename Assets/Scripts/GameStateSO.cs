@@ -21,7 +21,7 @@ public class GameStateSO : ScriptableObject
     public void SetState(GameState newState)
     {
         if (newState == currentState) return;
-        if (newState == GameState.End) return;
+        if (currentState == GameState.End) return;
 
         currentState = newState;
         OnStateChanged?.Invoke(currentState);

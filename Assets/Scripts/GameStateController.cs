@@ -58,11 +58,4 @@ public class GameStateController : MonoBehaviour
     public void SetState(GameState newState) => gameState.SetState(newState);
     public bool Is(GameState state) => gameState.Is(state);
 
-    // Example: input-based testing
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.P)) SetState(GameState.Paused);
-        if (Input.GetKeyDown(KeyCode.R)) SetState(GameState.Live);
-        if (Input.GetKeyDown(KeyCode.E)) SetState(GameState.End);
-    }
 }

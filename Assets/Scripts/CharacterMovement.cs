@@ -27,17 +27,25 @@ public class CharacterMovement : MonoBehaviour
         var input = InputManager.Instance;
 
         if (input.IsMoving && GameStateController.Instance.Is(GameState.Live))
+        {
             Debug.Log($"Moving: {input.MoveAxis}");
             rigidbody.linearVelocityX = input.MoveAxis * 5f;
+        }
 
-        if (input.PausePressed)
-            if (GameStateController.Instance.Is(GameState.Paused))
-            {
-                GameStateController.Instance.SetState(GameState.Live);
-            }
-            else { 
-                    GameStateController.Instance.SetState(GameState.Paused); 
-                }
+        if (input.PausePressed) pausePressed();
             
+            
+    }
+
+    public void pausePressed()
+    {
+        if (GameStateController.Instance.Is(GameState.Paused))
+        {
+            GameStateController.Instance.SetState(GameState.Live);
+        }
+        else
+        {
+            GameStateController.Instance.SetState(GameState.Paused);
+        }
     }
 }

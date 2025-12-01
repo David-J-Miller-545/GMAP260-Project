@@ -25,6 +25,7 @@ public class CatapultArm : MonoBehaviour
     [SerializeField] private bool armed = false;
     private float lastAngle;  // for velocity calculation
     private float angularVelocity = 0f;
+    public int ammo_left = 3;
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -118,6 +119,7 @@ public class CatapultArm : MonoBehaviour
         Vector2 launchVelocity = tangentDir * angularVelRad * radius.magnitude;
 
         current_ammo.GetComponent<Rigidbody2D>().linearVelocity = launchVelocity;
+        CameraHorizontalMover.Instance.following = current_ammo.transform;
         current_ammo = null;
     }
 
@@ -134,12 +136,18 @@ public class CatapultArm : MonoBehaviour
     {
         if (current_state == CatapultState.Held && GameStateController.Instance.Is(GameState.Live) && !armed)
         {
-            GameObject spawnedProjectile = Instantiate(projectile_to_spawn, projectile_spawner.transform.position, 
+            float currentZ = NormalizeAngle(transform.localEulerAngles.z);
+            if (currentZ > reload_z_rot && ammo_left > 0)
+            {
+                GameObject spawnedProjectile = Instantiate(projectile_to_spawn, projectile_spawner.transform.position,
                                                         projectile_spawner.transform.rotation);
-            spawnedProjectile.transform.parent = transform;
-            current_ammo = spawnedProjectile;
-            current_ammo.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
-            armed = true;
+                spawnedProjectile.transform.parent = transform;
+                current_ammo = spawnedProjectile;
+                current_ammo.GetComponent<Rigidbody2D>().bodyType = RigidbodyType2D.Kinematic;
+                armed = true;
+                ammo_left--;
+            }
+            
         }
     }
 
